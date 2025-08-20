@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
     int number = 10;
     int *ptr = &number;
     printf("Address of the variable is %d\n", ptr);

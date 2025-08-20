@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
 
     char *str1 = "John";
     char *str2 = "David";
@@ -10,11 +11,9 @@ int main(){
 
     char *str[] = {str1, str2, str3, str4, str5};
 
-
     for (int i = 0; i < 5; i++)
     {
-       printf("%s\n", str[i]);
+        printf("%s\n", str[i]);
     }
     return 0;
-    
 }

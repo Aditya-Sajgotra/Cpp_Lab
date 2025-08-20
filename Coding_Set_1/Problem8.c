@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int strLength(char *str){
+int strLength(char *str)
+{
     int str_length = 0;
 
     while (*str != '\0')
@@ -13,7 +14,7 @@ int strLength(char *str){
 
 int main()
 {
-    
+
     char *str = "Hello World";
     int str_length = strLength(str);
     printf("Length of the string is %d", str_length);
